@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acme Beauty - Révélez votre beauté naturelle</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="nav-container">
+      <div class="logo">Acme</div>
+      <ul class="nav-menu">
+        <li><a href="#features">Fonctionnalités</a></li>
+        <li><a href="#testimonials">Témoignages</a></li>
+        <li><a href="#pricing">Tarifs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="btn-reserve">Réserver</button>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <span class="hero-tag">100 % naturel & certifié</span>
+        <h1>Révélez votre beauté naturelle</h1>
+        <p class="hero-subtitle">
+          Des produits de beauté innovants formulés avec des superaliments pour sublimer naturellement votre peau et vos cheveux.
+        </p>
+        <div class="hero-buttons">
+          <button class="btn-primary">Commencer</button>
+          <button class="btn-secondary">En savoir plus</button>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-card main-card">
+          <img src="portrait.png" alt="Beauté">
+        </div>
+        <div class="visual-card stats-card">
+          <div class="stat-mini">
+            <span class="stat-value">10K+</span>
+            <span class="stat-label">Clients satisfaits</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUSTED BRANDS -->
+  <section class="trusted">
+    <p class="trusted-label">Approuvé par les plus grands magazines beauté</p>
+    <div class="trusted-logos">
+      <span>Vogue</span>
+      <span>Elle</span>
+      <span>Marie Claire</span>
+      <span>Cosmopolitan</span>
+      <span>Glamour</span>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section class="features" id="features">
+    <div class="section-header">
+      <span class="section-tag">Pourquoi nous choisir ?</span>
+      <h2>Transformez votre routine beauté en résultats visibles</h2>
+      <p>
+        Découvrez comment nos stratégies et outils innovants transforment vos besoins beauté en résultats concrets et durables pour votre bien-être.
+      </p>
+    </div>
+    
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>100 % naturel & bio</h3>
+        <p>
+          Tous nos produits sont formulés avec des ingrédients naturels et biologiques respectueux de votre peau. Aucun produit chimique nocif.
+        </p>
+      </div>
+      
+      <div class="feature-card highlight">
+        <h3>Efficacité prouvée scientifiquement</h3>
+        <p>
+          Chaque formule est développée en collaboration avec des dermatologues et testée cliniquement pour garantir son efficacité.
+        </p>
+      </div>
+      
+      <div class="feature-card">
+        <h3>Livraison gratuite</h3>
+        <p>
+          Livraison gratuite sous 48 h pour toute commande supérieure à 50 €. Retours gratuits sous 30 jours.
+        </p>
+      </div>
+      
+      <div class="feature-card">
+        <h3>Écoresponsable</h3>
+        <p>
+          Emballages recyclables, production locale et engagement zéro déchet. La beauté peut être durable.
+        </p>
+      </div>
+      
+      <div class="feature-card">
+        <h3>Résultats visibles</h3>
+        <p>
+          93 % de nos clients constatent des résultats visibles dès les deux premières semaines d’utilisation.
+        </p>
+      </div>
+      
+      <div class="feature-card">
+        <h3>Sans cruauté</h3>
+        <p>
+          Nos produits ne sont jamais testés sur les animaux et la majorité de notre gamme est 100 % végane.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUPERFOODS SECTION -->
+  <section class="superfoods">
+    <div class="section-header">
+      <span class="section-tag">Nos solutions</span>
+      <h2>Boostez votre beauté grâce à la science</h2>
+    </div>
+    
+    <div class="bento-grid">
+      <div class="bento-card large">
+        <div class="bento-content">
+          <h3>Thé vert Matcha</h3>
+          <p>
+            Un puissant antioxydant qui protège la peau du vieillissement prématuré et lui apporte éclat et vitalité.
+          </p>
+          <button class="btn-text">Découvrir →</button>
+        </div>
+      </div>
+      
+      <div class="bento-card">
+        <h3>Poudre de cacao</h3>
+        <p>
+          Une source exceptionnelle de propriétés antioxydantes et anti-âge pour une peau repulpée et revitalisée.
+        </p>
+      </div>
+      
+      <div class="bento-card">
+        <h3>Prêle des champs</h3>
+        <p>
+          Riche en silice naturelle, elle stimule la production de collagène pour des cheveux et une peau plus forts.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="testimonials-header">
+      <h2>Ils en parlent mieux que nous</h2>
+      <button class="btn-dark">En savoir plus</button>
+    </div>
+    
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <p>
+          "Après seulement deux semaines d’utilisation, ma peau est transformée ! Plus lumineuse, plus douce… je ne peux plus m’en passer."
+        </p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <img src="default.png" alt="Sophie C">
+          </div>
+          <div>
+            <strong>Sophie C.</strong>
+            <span>Directrice marketing chez Peak Performance Group</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonial-card">
+        <p>
+          "Enfin des produits qui respectent ma peau sensible ! Aucune irritation, que du plaisir. Livraison rapide et service client au top."
+        </p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <img src="default.png" alt="Marie L">
+          </div>
+          <div>
+            <strong>Marie L.</strong>
+            <span>Directrice commerciale chez Sunrise Tech</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonial-card">
+        <p>
+          "Choisir Acme a été l’une des meilleures décisions pour notre activité. Les analyses fournies nous ont permis de mieux cibler nos efforts."
+        </p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <img src="default.png" alt="Emma D">
+          </div>
+          <div>
+            <strong>Emma D.</strong>
+            <span>Responsable marketing chez Brightly Solutions</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="section-header">
+      <h2>Des formules tarifaires flexibles</h2>
+    </div>
+    
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <h3>Basique</h3>
+        <p class="pricing-desc">Fonctionnalités essentielles pour les petites entreprises.</p>
+        <div class="price">
+          <span class="amount">29 €</span>
+          <span class="period">/mois</span>
+        </div>
+        <ul class="features-list">
+          <li>Formulaires de capture de prospects</li>
+          <li>Scoring de prospects basique</li>
+          <li>Intégration email</li>
+        </ul>
+        <button class="btn-pricing">En savoir plus</button>
+      </div>
+      
+      <div class="pricing-card featured">
+        <div class="popular-badge">Offre premium</div>
+        <h3>Premium</h3>
+        <p class="pricing-desc">Fonctionnalités complètes pour les entreprises à grande échelle.</p>
+        <div class="price">
+          <span class="amount-large">59 €</span>
+          <span class="period">/mois</span>
+        </div>
+        <ul class="features-list">
+          <li>Formulaires entièrement personnalisables</li>
+          <li>Scoring de prospects par IA</li>
+          <li>Intégration CRM et marketing automation</li>
+          <li>Analyses et rapports avancés</li>
+        </ul>
+        <button class="btn-pricing-featured">En savoir plus</button>
+      </div>
+      
+      <div class="pricing-card">
+        <h3>Pro</h3>
+        <p class="pricing-desc">Fonctionnalités avancées pour les entreprises en croissance.</p>
+        <div class="price">
+          <span class="amount">99 €</span>
+          <span class="period">/mois</span>
+        </div>
+        <ul class="features-list">
+          <li>Formulaires personnalisés</li>
+          <li>Scoring avancé des prospects</li>
+          <li>Intégration CRM</li>
+          <li>Tests A/B</li>
+        </ul>
+        <button class="btn-pricing">En savoir plus</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="faq-container">
+      <div class="faq-left">
+        <h2>Vos questions, nos réponses</h2>
+        <button class="btn-dark">Nous contacter</button>
+      </div>
+      
+      <div class="faq-right">
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Comment votre plateforme garantit-elle des prospects qualifiés ?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Notre plateforme utilise un scoring avancé basé sur l’IA afin de ne vous fournir que des prospects correspondant à votre client idéal.
+            </p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Quels types d’entreprises bénéficient le plus de vos services ?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Nos services s’adressent aux entreprises de toutes tailles, des startups aux grands groupes souhaitant accélérer leur acquisition client.
+            </p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Puis-je personnaliser la stratégie selon mes objectifs business ?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Bien sûr ! Notre plateforme est entièrement personnalisable pour s’aligner avec vos objectifs et votre audience cible.
+            </p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Comment suivre les performances et le ROI de mes campagnes ?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Nous mettons à disposition des outils d’analyse et de reporting complets pour suivre vos performances et votre ROI en temps réel.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="cta">
+    <div class="cta-content">
+      <h2>Rejoignez les leaders de l’IA de demain</h2>
+      <form class="cta-form">
+        <input type="email" placeholder="Votre adresse email">
+        <button type="submit" class="btn-notify">Être informé</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <div class="footer-logo">Acme</div>
+      </div>
+      
+      <div class="footer-links">
+        <div class="footer-column">
+          <h4>Intégrations</h4>
+          <ul>
+            <li><a href="#">Intercom</a></li>
+            <li><a href="#">Zendesk</a></li>
+            <li><a href="#">Front App</a></li>
+            <li><a href="#">Gorgias</a></li>
+            <li><a href="#">HubSpot</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Secteurs</h4>
+          <ul>
+            <li><a href="#">Télécoms</a></li>
+            <li><a href="#">Électronique grand public</a></li>
+            <li><a href="#">Services professionnels</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Technologie</h4>
+          <ul>
+            <li><a href="#">Assistant de création</a></li>
+            <li><a href="#">Architecture multi-agents</a></li>
+            <li><a href="#">Fonctionnalités</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Solutions</h4>
+          <ul>
+            <li><a href="#">Ventes</a></li>
+            <li><a href="#">Service client</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-social">
+        <a href="#" aria-label="Twitter">𝕏</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <button class="btn-contact">Nous contacter</button>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 Acme. Tous droits réservés</p>
+      <div class="footer-legal">
+        <a href="#">Politique de confidentialité</a>
+        <a href="#">Conditions d’utilisation</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
